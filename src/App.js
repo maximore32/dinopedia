@@ -9,7 +9,7 @@ const Dino = () => {
   const usuarios = []
   let params = useParams();
   const getUser = () => {
-    fetch("https://diboos.herokuapp.com/api/id/"+params.ID)
+    fetch("https://dinopedy.herokuapp.com//api/id/"+params.ID)
       .then(response => response.json())
       .then(user => {usuarios.push(user);setUser(usuarios);})
       .catch(err => console.log(err.message))
@@ -46,7 +46,7 @@ const Dinosaurios = () => {
     const [users, setUsers] = useState( [])
   
     function getUsers() {
-      fetch('https://diboos.herokuapp.com/api')
+      fetch('https://dinopedy.herokuapp.com//api')
         .then(response => response.json())
         .then(users => setUsers(users))
         .catch(err => console.log("error no indentificado"))
