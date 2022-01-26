@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.App{
+    width: 100%;
+    max-width: 1440px;
+    min-width: 360px;
+    background-color: lightblue;
+}
+
+.h2{
+    width: 100%;
+}
+
+h2{
+    color: darkcyan;
+    font-family: cursive;
+}
+
+.x::first-letter{
+    background-color: red;
+    color:white;
+    font-size:28px;
+    float:left;
+    padding: 5px;
+    
+}
+p{
+    word-spacing: 5px;
+    line-height: 120%;
+    
+}
+
+.imagen{
+    width: 50%;
+    height: 400px;
+}
+
+.parrafin{
+    font-family: serif;
+}
+
+.dinoimg{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.App-header{
+    background-color:rgb(221, 247, 247);
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+.App-title{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cuerpo{
+    width: 100%;
+    background-color: lightcyan;
+    text-align: center;
+    float: left;
+    margin: 5px;
+}
+
+.dinocajas{
+    width: 30%;
+        
+    margin: 10px;
+    padding: 10px;
+    float: left;
+
+
+}
+
+h1 a{
+    text-decoration: none;
+}
+
+.h1{
+    font-family: cursive;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+section{
+    width: 100%;
+    float: left;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 247, 247);
+    color: darkcyan;
+}
+
+
+@media(max-width: 858px){
+    .dinocajas{
+        width: 44%;
+        margin: 4px;
+        padding: 4px;
+    }
+    .imagen{
+        width: 70%;
+        height: 350px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 858px) and (orientation: landscape){
+    .dinocajas{
+        width: 45%;
+        margin: 6px;
+        padding: 5px;
+    }
+
+    .imagen{
+        width: 70%;
+    }
+}
